@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		23C7DD4A1A1F885400D28B97 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C7DD491A1F885400D28B97 /* ImageViewController.swift */; };
 		74A04A581A20ED8A00CB988F /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A04A571A20ED8A00CB988F /* MoreDetailsViewController.swift */; };
-		74A0C9601A21CC6E00E270CC /* Layout.gif in Resources */ = {isa = PBXBuildFile; fileRef = 74A0C95F1A21CC6E00E270CC /* Layout.gif */; };
 		74A0C9641A21E1F100E270CC /* Retail_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74A0C9631A21E1F100E270CC /* Retail_Logo.png */; };
 		74AEF9891A22539B0052CCF5 /* shopping_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AEF9881A22539B0052CCF5 /* shopping_cart.png */; };
 		91141C8E1A1CC494003FDAD0 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91141C8D1A1CC494003FDAD0 /* Plan.swift */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		23C7DD491A1F885400D28B97 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../ImageViewController.swift; sourceTree = "<group>"; };
 		74A04A571A20ED8A00CB988F /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
-		74A0C95F1A21CC6E00E270CC /* Layout.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Layout.gif; path = ../../Layout.gif; sourceTree = "<group>"; };
 		74A0C9631A21E1F100E270CC /* Retail_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Retail_Logo.png; path = ../../../../Downloads/Retail_Logo.png; sourceTree = "<group>"; };
 		74AEF9881A22539B0052CCF5 /* shopping_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping_cart.png; sourceTree = "<group>"; };
 		91141C8D1A1CC494003FDAD0 /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 				74A0C9671A21E86A00E270CC /* Controller */,
 				91975BEB1A1A1F2800E135F5 /* Images.xcassets */,
 				74A0C9631A21E1F100E270CC /* Retail_Logo.png */,
-				74A0C95F1A21CC6E00E270CC /* Layout.gif */,
 				91975BED1A1A1F2800E135F5 /* LaunchScreen.xib */,
 				91975BE31A1A1F2800E135F5 /* RetailStore.xcdatamodeld */,
 				91975BDF1A1A1F2800E135F5 /* Supporting Files */,
@@ -246,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A0C9601A21CC6E00E270CC /* Layout.gif in Resources */,
 				91975BEA1A1A1F2800E135F5 /* Main.storyboard in Resources */,
 				91975BEF1A1A1F2800E135F5 /* LaunchScreen.xib in Resources */,
 				74AEF9891A22539B0052CCF5 /* shopping_cart.png in Resources */,

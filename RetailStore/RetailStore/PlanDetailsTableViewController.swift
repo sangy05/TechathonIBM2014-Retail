@@ -53,8 +53,21 @@ class PlanDetailsTableViewController: UIViewController, UITableViewDelegate, UIT
     
     
     @IBAction func checkAvailabilityButton(sender: AnyObject) {
-        
-        var url = NSURL(string: "http://techathonsangeethibmapi.mybluemix.net/StoreQuery");
+        var itemList = "";
+        for (var i = 0;i<tableData.count;i++)
+        {
+            if(i == tableData.count-1)
+            {
+                itemList += tableData[i];
+            }
+            else
+            {
+                itemList += tableData[i] + "-";
+            }
+        }
+        println(itemList as String);
+        var url = NSURL(string: "http://imacers.mybluemix.net/StoreQuery?checkAvailability="+itemList);
+        //var url = NSURL(string: "http://imacers.mybluemix.net/StoreQuery/");
         var data:NSData = NSData(contentsOfURL: url);
         appDelegate.serverAvailabilityString = NSString(data: data, encoding: NSASCIIStringEncoding);
         
